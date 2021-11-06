@@ -1,6 +1,6 @@
 /****************************************************************************
  Module
-   Fingerprint.c
+   ServoService.c
 
  Revision
    1.0.1
@@ -22,7 +22,7 @@
 */
 #include "ES_Configure.h"
 #include "ES_Framework.h"
-#include "Fingerprint.h"
+#include "ServoService.h"
 
 /*----------------------------- Module Defines ----------------------------*/
 
@@ -38,7 +38,7 @@ static uint8_t MyPriority;
 /*------------------------------ Module Code ------------------------------*/
 /****************************************************************************
  Function
-     InitFingerprintStatus
+     InitServoService
 
  Parameters
      uint8_t : the priorty of this service
@@ -54,7 +54,7 @@ static uint8_t MyPriority;
  Author
      J. Edward Carryer, 01/16/12, 10:00
 ****************************************************************************/
-bool InitFingerprintStatus(uint8_t Priority)
+bool InitServoService(uint8_t Priority)
 {
   ES_Event_t ThisEvent;
 
@@ -76,26 +76,51 @@ bool InitFingerprintStatus(uint8_t Priority)
 
 /****************************************************************************
  Function
-   CheckFingerprintEvents
+     PostServoService
 
  Parameters
-   none
+     EF_Event_t ThisEvent ,the event to post to the queue
 
  Returns
-   bool
+     bool false if the Enqueue operation failed, true otherwise
 
  Description
-   Detects changes in the state of the capacitive touch sensor
+     Posts an event to this state machine's queue
  Notes
 
  Author
-   L. Artzt, 11/6/21
+     J. Edward Carryer, 10/23/11, 19:25
 ****************************************************************************/
-bool CheckFingerprintEvents (void)
+bool PostServoService(ES_Event_t ThisEvent)
 {
+  return ES_PostToService(MyPriority, ThisEvent);
+}
+
+/****************************************************************************
+ Function
+    RunServoService
+
+ Parameters
+   ES_Event_t : the event to process
+
+ Returns
+   ES_Event, ES_NO_EVENT if no error ES_ERROR otherwise
+
+ Description
+   add your description here
+ Notes
+
+ Author
+   J. Edward Carryer, 01/15/12, 15:23
+****************************************************************************/
+ES_Event_t RunServoService(ES_Event_t ThisEvent)
+{
+  ES_Event_t ReturnEvent;
+  ReturnEvent.EventType = ES_NO_EVENT; // assume no errors
   /********************************************
-   in here you write your code
+   in here you write your service code
    *******************************************/
+  return ReturnEvent;
 }
 
 /***************************************************************************

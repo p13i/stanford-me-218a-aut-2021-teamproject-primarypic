@@ -181,7 +181,7 @@ ES_Event_t RunSystemSM(ES_Event_t ThisEvent)
  Author
      J. Edward Carryer, 10/23/11, 19:21
 ****************************************************************************/
-TemplateState_t QuerySystemSM(void)
+SystemState_t QuerySystemSM(void)
 {
   return CurrentState;
 }

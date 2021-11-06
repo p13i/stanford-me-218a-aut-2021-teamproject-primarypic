@@ -25,7 +25,7 @@ typedef enum
 bool InitSoundSM(uint8_t Priority);
 bool PostSoundSM(ES_Event_t ThisEvent);
 ES_Event_t RunSoundSM(ES_Event_t ThisEvent);
-TemplateState_t QuerySoundSM(void);
+SoundState_t QuerySoundSM(void);
 
 #endif /* SoundSM_H */
 
