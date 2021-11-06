@@ -5,8 +5,8 @@
 
  ****************************************************************************/
 
-#ifndef SystemSM_H
-#define SystemSM_H
+#ifndef OperationTaskSM_H
+#define OperationTaskSM_H
 
 // Event Definitions
 #include "ES_Configure.h" /* gets us event definitions */
@@ -18,14 +18,14 @@ typedef enum
 {
   InitPState, UnlockWaiting, _1UnlockPress,
   _2UnlockPresses, Locked
-}SystemState_t;
+}OperationTaskState_t;
 
 // Public Function Prototypes
 
-bool InitSystemSM(uint8_t Priority);
-bool PostSystemSM(ES_Event_t ThisEvent);
-ES_Event_t RunSystemSM(ES_Event_t ThisEvent);
-SystemState_t QuerySystemSM(void);
+bool InitOperationTaskSM(uint8_t Priority);
+bool PostOperationTaskSM(ES_Event_t ThisEvent);
+ES_Event_t RunOperationTaskSM(ES_Event_t ThisEvent);
+OperationTaskState_t QueryOperationTaskSM(void);
 
-#endif /* SystemSM_H */
+#endif /* OperationTaskSM_H */
 
