@@ -53,6 +53,7 @@
       <itemPath>FrameworkHeaders/ServoService.h</itemPath>
       <itemPath>FrameworkHeaders/OperationTaskSM.h</itemPath>
       <itemPath>FrameworkHeaders/RadioCodeTaskSM.h</itemPath>
+      <itemPath>FrameworkHeaders/WireCutTaskSM.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -72,6 +73,7 @@
       <itemPath>FrameworkHeaders/ServoService.c</itemPath>
       <itemPath>FrameworkHeaders/OperationTaskSM.c</itemPath>
       <itemPath>FrameworkHeaders/RadioCodeTaskSM.c</itemPath>
+      <itemPath>FrameworkHeaders/WireCutTaskSM.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
