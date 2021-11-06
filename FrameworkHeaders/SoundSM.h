@@ -5,8 +5,8 @@
 
  ****************************************************************************/
 
-#ifndef SystemSM_H
-#define SystemSM_H
+#ifndef SoundSM_H
+#define SoundSM_H
 
 // Event Definitions
 #include "ES_Configure.h" /* gets us event definitions */
@@ -18,14 +18,14 @@ typedef enum
 {
   InitPState, UnlockWaiting, _1UnlockPress,
   _2UnlockPresses, Locked
-}SystemState_t;
+}SoundState_t;
 
 // Public Function Prototypes
 
-bool InitSystemSM(uint8_t Priority);
-bool PostSystemSM(ES_Event_t ThisEvent);
-ES_Event_t RunSystemSM(ES_Event_t ThisEvent);
-SystemState_t QuerySystemSM(void);
+bool InitSoundSM(uint8_t Priority);
+bool PostSoundSM(ES_Event_t ThisEvent);
+ES_Event_t RunSoundSM(ES_Event_t ThisEvent);
+TemplateState_t QuerySoundSM(void);
 
-#endif /* FSMTemplate_H */
+#endif /* SoundSM_H */
 

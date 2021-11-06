@@ -49,6 +49,7 @@
       <itemPath>FrameworkHeaders/SystemSM.h</itemPath>
       <itemPath>ProjectHeaders/TemplateFSM.h</itemPath>
       <itemPath>FrameworkHeaders/Fingerprint.h</itemPath>
+      <itemPath>FrameworkHeaders/SoundSM.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -64,6 +65,7 @@
       <itemPath>ProjectSource/TemplateFSM.c</itemPath>
       <itemPath>FrameworkHeaders/SystemSM.c</itemPath>
       <itemPath>FrameworkHeaders/Fingerprint.c</itemPath>
+      <itemPath>FrameworkHeaders/SoundSM.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
