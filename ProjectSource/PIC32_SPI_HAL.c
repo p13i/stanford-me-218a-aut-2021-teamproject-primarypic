@@ -15,7 +15,7 @@
 #include <stdbool.h>
 #include <proc/p32mx170f256b.h> 
 #include "bitdefs.h"
-#include "PIC32_SPI_HAL.h"
+#include "../ProjectHeaders/PIC32_SPI_HAL.h"
 
 /*--------------------------- External Variables --------------------------*/
 
