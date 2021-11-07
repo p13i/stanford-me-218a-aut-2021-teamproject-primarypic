@@ -1,6 +1,6 @@
 /****************************************************************************
 
-  Header file for template service
+  Header file for "Fingerprint" Capacitive Touch Sensor service
   based on the Gen 2 Events and Services Framework
 
  ****************************************************************************/

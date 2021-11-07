@@ -1,6 +1,6 @@
 /****************************************************************************
 
-  Header file for template service
+  Header file for Servo Stopwatch Countdown Controller service
   based on the Gen 2 Events and Services Framework
 
  ****************************************************************************/

@@ -1,6 +1,6 @@
 /****************************************************************************
 
-  Header file for template Flat Sate Machine
+  Header file for Bomb Defusing Training Simulator System Flat Sate Machine
   based on the Gen2 Events and Services Framework
 
  ****************************************************************************/

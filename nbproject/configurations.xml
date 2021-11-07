@@ -45,9 +45,7 @@
       <itemPath>ProjectHeaders/EventCheckWrapper.h</itemPath>
       <itemPath>ProjectHeaders/EventCheckers.h</itemPath>
       <itemPath>ProjectHeaders/TestHarnessService0.h</itemPath>
-      <itemPath>ProjectHeaders/TemplateService.h</itemPath>
       <itemPath>FrameworkHeaders/SystemSM.h</itemPath>
-      <itemPath>ProjectHeaders/TemplateFSM.h</itemPath>
       <itemPath>FrameworkHeaders/Fingerprint.h</itemPath>
       <itemPath>FrameworkHeaders/SoundSM.h</itemPath>
       <itemPath>FrameworkHeaders/ServoService.h</itemPath>
@@ -65,8 +63,6 @@
       <itemPath>ProjectSource/EventCheckers.c</itemPath>
       <itemPath>ProjectSource/TestHarnessService0.c</itemPath>
       <itemPath>ProjectSource/main.c</itemPath>
-      <itemPath>ProjectSource/TemplateService.c</itemPath>
-      <itemPath>ProjectSource/TemplateFSM.c</itemPath>
       <itemPath>FrameworkHeaders/SystemSM.c</itemPath>
       <itemPath>FrameworkHeaders/Fingerprint.c</itemPath>
       <itemPath>FrameworkHeaders/SoundSM.c</itemPath>
@@ -264,6 +260,10 @@
         <property key="save-temps" value="false"/>
         <property key="wpo-lto" value="false"/>
       </C32Global>
+      <item path="ProjectHeaders/TestHarnessService0.h" ex="true" overriding="false">
+      </item>
+      <item path="ProjectSource/TestHarnessService0.c" ex="true" overriding="false">
+      </item>
       <item path="ProjectSource/main.c" ex="false" overriding="false">
         <C32>
         </C32>
