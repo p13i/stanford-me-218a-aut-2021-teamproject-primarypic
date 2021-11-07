@@ -1,12 +1,12 @@
 /****************************************************************************
 
-  Header file for Bomb Defusing Training Simulator System Flat Sate Machine
+  Header file for Bomb Defusing Training Primary System Flat Sate Machine
   based on the Gen2 Events and Services Framework
 
  ****************************************************************************/
 
-#ifndef SystemSM_H
-#define SystemSM_H
+#ifndef PrimarySystemSM_H
+#define PrimarySystemSM_H
 
 // Event Definitions
 #include "ES_Configure.h" /* gets us event definitions */
@@ -18,14 +18,14 @@ typedef enum
 {
   InitPState, UnlockWaiting, _1UnlockPress,
   _2UnlockPresses, Locked
-}SystemState_t;
+}PrimarySystemState_t;
 
 // Public Function Prototypes
 
-bool InitSystemSM(uint8_t Priority);
-bool PostSystemSM(ES_Event_t ThisEvent);
-ES_Event_t RunSystemSM(ES_Event_t ThisEvent);
-SystemState_t QuerySystemSM(void);
+bool InitPrimarySystemSM(uint8_t Priority);
+bool PostPrimarySystemSM(ES_Event_t ThisEvent);
+ES_Event_t RunPrimarySystemSM(ES_Event_t ThisEvent);
+PrimarySystemState_t QueryPrimarySystemSM(void);
 
 #endif /* SystemSM_H */
 

@@ -1,6 +1,6 @@
 /****************************************************************************
  Module
-   SystemSM.c
+   PrimarySystemSM.c
 
  Revision
    1.0.1
@@ -25,7 +25,7 @@
 */
 #include "ES_Configure.h"
 #include "ES_Framework.h"
-#include "SystemSM.h"
+#include "PrimarySystemSM.h"
 
 /*----------------------------- Module Defines ----------------------------*/
 
@@ -37,7 +37,7 @@
 /*---------------------------- Module Variables ---------------------------*/
 // everybody needs a state variable, you may need others as well.
 // type of state variable should match htat of enum in header file
-static SystemState_t CurrentState;
+static PrimarySystemState_t CurrentState;
 
 // with the introduction of Gen2, we need a module level Priority var as well
 static uint8_t MyPriority;
@@ -45,7 +45,7 @@ static uint8_t MyPriority;
 /*------------------------------ Module Code ------------------------------*/
 /****************************************************************************
  Function
-     InitSystemSM
+     InitPrimarySystemSM
 
  Parameters
      uint8_t : the priorty of this service
@@ -61,7 +61,7 @@ static uint8_t MyPriority;
  Author
      J. Edward Carryer, 10/23/11, 18:55
 ****************************************************************************/
-bool InitSystemSM(uint8_t Priority)
+bool InitPrimarySystemSM(uint8_t Priority)
 {
   ES_Event_t ThisEvent;
 
@@ -82,7 +82,7 @@ bool InitSystemSM(uint8_t Priority)
 
 /****************************************************************************
  Function
-     PostSystemSM
+     PostPrimarySystemSM
 
  Parameters
      EF_Event_t ThisEvent , the event to post to the queue
@@ -97,14 +97,14 @@ bool InitSystemSM(uint8_t Priority)
  Author
      J. Edward Carryer, 10/23/11, 19:25
 ****************************************************************************/
-bool PostSystemSM(ES_Event_t ThisEvent)
+bool PostPrimarySystemSM(ES_Event_t ThisEvent)
 {
   return ES_PostToService(MyPriority, ThisEvent);
 }
 
 /****************************************************************************
  Function
-    RunTemplateFSM
+    RunPrimarySystemSM
 
  Parameters
    ES_Event_t : the event to process
@@ -119,7 +119,7 @@ bool PostSystemSM(ES_Event_t ThisEvent)
  Author
    J. Edward Carryer, 01/15/12, 15:23
 ****************************************************************************/
-ES_Event_t RunSystemSM(ES_Event_t ThisEvent)
+ES_Event_t RunPrimarySystemSM(ES_Event_t ThisEvent)
 {
   ES_Event_t ReturnEvent;
   ReturnEvent.EventType = ES_NO_EVENT; // assume no errors
@@ -166,7 +166,7 @@ ES_Event_t RunSystemSM(ES_Event_t ThisEvent)
 
 /****************************************************************************
  Function
-     QuerySystemSM
+     QueryPrimarySystemSM
 
  Parameters
      None
@@ -181,7 +181,7 @@ ES_Event_t RunSystemSM(ES_Event_t ThisEvent)
  Author
      J. Edward Carryer, 10/23/11, 19:21
 ****************************************************************************/
-SystemState_t QuerySystemSM(void)
+PrimarySystemState_t QueryPrimarySystemSM(void)
 {
   return CurrentState;
 }

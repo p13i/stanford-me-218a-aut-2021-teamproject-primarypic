@@ -41,11 +41,11 @@
 // services are added in numeric sequence (1,2,3,...) with increasing
 // priorities
 // the header file with the public function prototypes
-#define SERV_0_HEADER "SystemSM.h"
+#define SERV_0_HEADER "PrimarySystemSM.h"
 // the name of the Init function
-#define SERV_0_INIT InitSystemSM
+#define SERV_0_INIT InitPrimarySystemSM
 // the name of the run function
-#define SERV_0_RUN RunSystemSM
+#define SERV_0_RUN RunPrimarySystemSM
 // How big should this services Queue be?
 #define SERV_0_QUEUE_SIZE 5
 

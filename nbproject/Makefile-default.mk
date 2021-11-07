@@ -57,17 +57,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=FrameworkSource/ES_CheckEvents.c FrameworkSource/ES_DeferRecall.c FrameworkSource/ES_Framework.c FrameworkSource/ES_LookupTables.c FrameworkSource/ES_Port.c FrameworkSource/ES_PostList.c FrameworkSource/ES_Queue.c FrameworkSource/ES_Timers.c FrameworkSource/terminal.c FrameworkSource/circular_buffer_no_modulo_threadsafe.c FrameworkSource/dbprintf.c ProjectSource/EventCheckers.c ProjectSource/main.c FrameworkHeaders/SystemSM.c FrameworkHeaders/Fingerprint.c FrameworkHeaders/SoundSM.c FrameworkHeaders/ServoService.c FrameworkHeaders/OperationTaskSM.c FrameworkHeaders/RadioCodeTaskSM.c FrameworkHeaders/WireCutTaskSM.c
+SOURCEFILES_QUOTED_IF_SPACED=FrameworkSource/ES_CheckEvents.c FrameworkSource/ES_DeferRecall.c FrameworkSource/ES_Framework.c FrameworkSource/ES_LookupTables.c FrameworkSource/ES_Port.c FrameworkSource/ES_PostList.c FrameworkSource/ES_Queue.c FrameworkSource/ES_Timers.c FrameworkSource/terminal.c FrameworkSource/circular_buffer_no_modulo_threadsafe.c FrameworkSource/dbprintf.c ProjectSource/EventCheckers.c ProjectSource/main.c FrameworkHeaders/Fingerprint.c FrameworkHeaders/SoundSM.c FrameworkHeaders/ServoService.c FrameworkHeaders/OperationTaskSM.c FrameworkHeaders/RadioCodeTaskSM.c FrameworkHeaders/WireCutTaskSM.c FrameworkHeaders/PrimarySystemSM.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/FrameworkSource/ES_CheckEvents.o ${OBJECTDIR}/FrameworkSource/ES_DeferRecall.o ${OBJECTDIR}/FrameworkSource/ES_Framework.o ${OBJECTDIR}/FrameworkSource/ES_LookupTables.o ${OBJECTDIR}/FrameworkSource/ES_Port.o ${OBJECTDIR}/FrameworkSource/ES_PostList.o ${OBJECTDIR}/FrameworkSource/ES_Queue.o ${OBJECTDIR}/FrameworkSource/ES_Timers.o ${OBJECTDIR}/FrameworkSource/terminal.o ${OBJECTDIR}/FrameworkSource/circular_buffer_no_modulo_threadsafe.o ${OBJECTDIR}/FrameworkSource/dbprintf.o ${OBJECTDIR}/ProjectSource/EventCheckers.o ${OBJECTDIR}/ProjectSource/main.o ${OBJECTDIR}/FrameworkHeaders/SystemSM.o ${OBJECTDIR}/FrameworkHeaders/Fingerprint.o ${OBJECTDIR}/FrameworkHeaders/SoundSM.o ${OBJECTDIR}/FrameworkHeaders/ServoService.o ${OBJECTDIR}/FrameworkHeaders/OperationTaskSM.o ${OBJECTDIR}/FrameworkHeaders/RadioCodeTaskSM.o ${OBJECTDIR}/FrameworkHeaders/WireCutTaskSM.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/FrameworkSource/ES_CheckEvents.o.d ${OBJECTDIR}/FrameworkSource/ES_DeferRecall.o.d ${OBJECTDIR}/FrameworkSource/ES_Framework.o.d ${OBJECTDIR}/FrameworkSource/ES_LookupTables.o.d ${OBJECTDIR}/FrameworkSource/ES_Port.o.d ${OBJECTDIR}/FrameworkSource/ES_PostList.o.d ${OBJECTDIR}/FrameworkSource/ES_Queue.o.d ${OBJECTDIR}/FrameworkSource/ES_Timers.o.d ${OBJECTDIR}/FrameworkSource/terminal.o.d ${OBJECTDIR}/FrameworkSource/circular_buffer_no_modulo_threadsafe.o.d ${OBJECTDIR}/FrameworkSource/dbprintf.o.d ${OBJECTDIR}/ProjectSource/EventCheckers.o.d ${OBJECTDIR}/ProjectSource/main.o.d ${OBJECTDIR}/FrameworkHeaders/SystemSM.o.d ${OBJECTDIR}/FrameworkHeaders/Fingerprint.o.d ${OBJECTDIR}/FrameworkHeaders/SoundSM.o.d ${OBJECTDIR}/FrameworkHeaders/ServoService.o.d ${OBJECTDIR}/FrameworkHeaders/OperationTaskSM.o.d ${OBJECTDIR}/FrameworkHeaders/RadioCodeTaskSM.o.d ${OBJECTDIR}/FrameworkHeaders/WireCutTaskSM.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/FrameworkSource/ES_CheckEvents.o ${OBJECTDIR}/FrameworkSource/ES_DeferRecall.o ${OBJECTDIR}/FrameworkSource/ES_Framework.o ${OBJECTDIR}/FrameworkSource/ES_LookupTables.o ${OBJECTDIR}/FrameworkSource/ES_Port.o ${OBJECTDIR}/FrameworkSource/ES_PostList.o ${OBJECTDIR}/FrameworkSource/ES_Queue.o ${OBJECTDIR}/FrameworkSource/ES_Timers.o ${OBJECTDIR}/FrameworkSource/terminal.o ${OBJECTDIR}/FrameworkSource/circular_buffer_no_modulo_threadsafe.o ${OBJECTDIR}/FrameworkSource/dbprintf.o ${OBJECTDIR}/ProjectSource/EventCheckers.o ${OBJECTDIR}/ProjectSource/main.o ${OBJECTDIR}/FrameworkHeaders/Fingerprint.o ${OBJECTDIR}/FrameworkHeaders/SoundSM.o ${OBJECTDIR}/FrameworkHeaders/ServoService.o ${OBJECTDIR}/FrameworkHeaders/OperationTaskSM.o ${OBJECTDIR}/FrameworkHeaders/RadioCodeTaskSM.o ${OBJECTDIR}/FrameworkHeaders/WireCutTaskSM.o ${OBJECTDIR}/FrameworkHeaders/PrimarySystemSM.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/FrameworkSource/ES_CheckEvents.o.d ${OBJECTDIR}/FrameworkSource/ES_DeferRecall.o.d ${OBJECTDIR}/FrameworkSource/ES_Framework.o.d ${OBJECTDIR}/FrameworkSource/ES_LookupTables.o.d ${OBJECTDIR}/FrameworkSource/ES_Port.o.d ${OBJECTDIR}/FrameworkSource/ES_PostList.o.d ${OBJECTDIR}/FrameworkSource/ES_Queue.o.d ${OBJECTDIR}/FrameworkSource/ES_Timers.o.d ${OBJECTDIR}/FrameworkSource/terminal.o.d ${OBJECTDIR}/FrameworkSource/circular_buffer_no_modulo_threadsafe.o.d ${OBJECTDIR}/FrameworkSource/dbprintf.o.d ${OBJECTDIR}/ProjectSource/EventCheckers.o.d ${OBJECTDIR}/ProjectSource/main.o.d ${OBJECTDIR}/FrameworkHeaders/Fingerprint.o.d ${OBJECTDIR}/FrameworkHeaders/SoundSM.o.d ${OBJECTDIR}/FrameworkHeaders/ServoService.o.d ${OBJECTDIR}/FrameworkHeaders/OperationTaskSM.o.d ${OBJECTDIR}/FrameworkHeaders/RadioCodeTaskSM.o.d ${OBJECTDIR}/FrameworkHeaders/WireCutTaskSM.o.d ${OBJECTDIR}/FrameworkHeaders/PrimarySystemSM.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/FrameworkSource/ES_CheckEvents.o ${OBJECTDIR}/FrameworkSource/ES_DeferRecall.o ${OBJECTDIR}/FrameworkSource/ES_Framework.o ${OBJECTDIR}/FrameworkSource/ES_LookupTables.o ${OBJECTDIR}/FrameworkSource/ES_Port.o ${OBJECTDIR}/FrameworkSource/ES_PostList.o ${OBJECTDIR}/FrameworkSource/ES_Queue.o ${OBJECTDIR}/FrameworkSource/ES_Timers.o ${OBJECTDIR}/FrameworkSource/terminal.o ${OBJECTDIR}/FrameworkSource/circular_buffer_no_modulo_threadsafe.o ${OBJECTDIR}/FrameworkSource/dbprintf.o ${OBJECTDIR}/ProjectSource/EventCheckers.o ${OBJECTDIR}/ProjectSource/main.o ${OBJECTDIR}/FrameworkHeaders/SystemSM.o ${OBJECTDIR}/FrameworkHeaders/Fingerprint.o ${OBJECTDIR}/FrameworkHeaders/SoundSM.o ${OBJECTDIR}/FrameworkHeaders/ServoService.o ${OBJECTDIR}/FrameworkHeaders/OperationTaskSM.o ${OBJECTDIR}/FrameworkHeaders/RadioCodeTaskSM.o ${OBJECTDIR}/FrameworkHeaders/WireCutTaskSM.o
+OBJECTFILES=${OBJECTDIR}/FrameworkSource/ES_CheckEvents.o ${OBJECTDIR}/FrameworkSource/ES_DeferRecall.o ${OBJECTDIR}/FrameworkSource/ES_Framework.o ${OBJECTDIR}/FrameworkSource/ES_LookupTables.o ${OBJECTDIR}/FrameworkSource/ES_Port.o ${OBJECTDIR}/FrameworkSource/ES_PostList.o ${OBJECTDIR}/FrameworkSource/ES_Queue.o ${OBJECTDIR}/FrameworkSource/ES_Timers.o ${OBJECTDIR}/FrameworkSource/terminal.o ${OBJECTDIR}/FrameworkSource/circular_buffer_no_modulo_threadsafe.o ${OBJECTDIR}/FrameworkSource/dbprintf.o ${OBJECTDIR}/ProjectSource/EventCheckers.o ${OBJECTDIR}/ProjectSource/main.o ${OBJECTDIR}/FrameworkHeaders/Fingerprint.o ${OBJECTDIR}/FrameworkHeaders/SoundSM.o ${OBJECTDIR}/FrameworkHeaders/ServoService.o ${OBJECTDIR}/FrameworkHeaders/OperationTaskSM.o ${OBJECTDIR}/FrameworkHeaders/RadioCodeTaskSM.o ${OBJECTDIR}/FrameworkHeaders/WireCutTaskSM.o ${OBJECTDIR}/FrameworkHeaders/PrimarySystemSM.o
 
 # Source Files
-SOURCEFILES=FrameworkSource/ES_CheckEvents.c FrameworkSource/ES_DeferRecall.c FrameworkSource/ES_Framework.c FrameworkSource/ES_LookupTables.c FrameworkSource/ES_Port.c FrameworkSource/ES_PostList.c FrameworkSource/ES_Queue.c FrameworkSource/ES_Timers.c FrameworkSource/terminal.c FrameworkSource/circular_buffer_no_modulo_threadsafe.c FrameworkSource/dbprintf.c ProjectSource/EventCheckers.c ProjectSource/main.c FrameworkHeaders/SystemSM.c FrameworkHeaders/Fingerprint.c FrameworkHeaders/SoundSM.c FrameworkHeaders/ServoService.c FrameworkHeaders/OperationTaskSM.c FrameworkHeaders/RadioCodeTaskSM.c FrameworkHeaders/WireCutTaskSM.c
+SOURCEFILES=FrameworkSource/ES_CheckEvents.c FrameworkSource/ES_DeferRecall.c FrameworkSource/ES_Framework.c FrameworkSource/ES_LookupTables.c FrameworkSource/ES_Port.c FrameworkSource/ES_PostList.c FrameworkSource/ES_Queue.c FrameworkSource/ES_Timers.c FrameworkSource/terminal.c FrameworkSource/circular_buffer_no_modulo_threadsafe.c FrameworkSource/dbprintf.c ProjectSource/EventCheckers.c ProjectSource/main.c FrameworkHeaders/Fingerprint.c FrameworkHeaders/SoundSM.c FrameworkHeaders/ServoService.c FrameworkHeaders/OperationTaskSM.c FrameworkHeaders/RadioCodeTaskSM.c FrameworkHeaders/WireCutTaskSM.c FrameworkHeaders/PrimarySystemSM.c
 
 
 
@@ -185,12 +185,6 @@ ${OBJECTDIR}/ProjectSource/main.o: ProjectSource/main.c  .generated_files/flags/
 	@${RM} ${OBJECTDIR}/ProjectSource/main.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"FrameworkHeaders" -I"ProjectHeaders" -fno-common -MP -MMD -MF "${OBJECTDIR}/ProjectSource/main.o.d" -o ${OBJECTDIR}/ProjectSource/main.o ProjectSource/main.c   -relaxed-math -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/FrameworkHeaders/SystemSM.o: FrameworkHeaders/SystemSM.c  .generated_files/flags/default/378cbcd218d328d744b8d5a0ce5575ec1bcd30da .generated_files/flags/default/25cf332145e109ecc94cb8c88ed46e464b66686
-	@${MKDIR} "${OBJECTDIR}/FrameworkHeaders" 
-	@${RM} ${OBJECTDIR}/FrameworkHeaders/SystemSM.o.d 
-	@${RM} ${OBJECTDIR}/FrameworkHeaders/SystemSM.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"FrameworkHeaders" -I"ProjectHeaders" -fno-common -MP -MMD -MF "${OBJECTDIR}/FrameworkHeaders/SystemSM.o.d" -o ${OBJECTDIR}/FrameworkHeaders/SystemSM.o FrameworkHeaders/SystemSM.c   -relaxed-math -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
 ${OBJECTDIR}/FrameworkHeaders/Fingerprint.o: FrameworkHeaders/Fingerprint.c  .generated_files/flags/default/516de73d603f1ebfc702f67b0a0469a33cd143b8 .generated_files/flags/default/25cf332145e109ecc94cb8c88ed46e464b66686
 	@${MKDIR} "${OBJECTDIR}/FrameworkHeaders" 
 	@${RM} ${OBJECTDIR}/FrameworkHeaders/Fingerprint.o.d 
@@ -226,6 +220,12 @@ ${OBJECTDIR}/FrameworkHeaders/WireCutTaskSM.o: FrameworkHeaders/WireCutTaskSM.c 
 	@${RM} ${OBJECTDIR}/FrameworkHeaders/WireCutTaskSM.o.d 
 	@${RM} ${OBJECTDIR}/FrameworkHeaders/WireCutTaskSM.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"FrameworkHeaders" -I"ProjectHeaders" -fno-common -MP -MMD -MF "${OBJECTDIR}/FrameworkHeaders/WireCutTaskSM.o.d" -o ${OBJECTDIR}/FrameworkHeaders/WireCutTaskSM.o FrameworkHeaders/WireCutTaskSM.c   -relaxed-math -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/FrameworkHeaders/PrimarySystemSM.o: FrameworkHeaders/PrimarySystemSM.c  .generated_files/flags/default/5efd725ffcce0cf95677099af6576de75b58a01b .generated_files/flags/default/25cf332145e109ecc94cb8c88ed46e464b66686
+	@${MKDIR} "${OBJECTDIR}/FrameworkHeaders" 
+	@${RM} ${OBJECTDIR}/FrameworkHeaders/PrimarySystemSM.o.d 
+	@${RM} ${OBJECTDIR}/FrameworkHeaders/PrimarySystemSM.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE) -g -D__DEBUG   -fframe-base-loclist  -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"FrameworkHeaders" -I"ProjectHeaders" -fno-common -MP -MMD -MF "${OBJECTDIR}/FrameworkHeaders/PrimarySystemSM.o.d" -o ${OBJECTDIR}/FrameworkHeaders/PrimarySystemSM.o FrameworkHeaders/PrimarySystemSM.c   -relaxed-math -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
 else
 ${OBJECTDIR}/FrameworkSource/ES_CheckEvents.o: FrameworkSource/ES_CheckEvents.c  .generated_files/flags/default/f64720c4b8f162fa40756f512cf8ccba2a480589 .generated_files/flags/default/25cf332145e109ecc94cb8c88ed46e464b66686
@@ -306,12 +306,6 @@ ${OBJECTDIR}/ProjectSource/main.o: ProjectSource/main.c  .generated_files/flags/
 	@${RM} ${OBJECTDIR}/ProjectSource/main.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"FrameworkHeaders" -I"ProjectHeaders" -fno-common -MP -MMD -MF "${OBJECTDIR}/ProjectSource/main.o.d" -o ${OBJECTDIR}/ProjectSource/main.o ProjectSource/main.c   -relaxed-math -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
-${OBJECTDIR}/FrameworkHeaders/SystemSM.o: FrameworkHeaders/SystemSM.c  .generated_files/flags/default/3bccd27f32238d980ddf1d82ceb0d3c6039d5747 .generated_files/flags/default/25cf332145e109ecc94cb8c88ed46e464b66686
-	@${MKDIR} "${OBJECTDIR}/FrameworkHeaders" 
-	@${RM} ${OBJECTDIR}/FrameworkHeaders/SystemSM.o.d 
-	@${RM} ${OBJECTDIR}/FrameworkHeaders/SystemSM.o 
-	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"FrameworkHeaders" -I"ProjectHeaders" -fno-common -MP -MMD -MF "${OBJECTDIR}/FrameworkHeaders/SystemSM.o.d" -o ${OBJECTDIR}/FrameworkHeaders/SystemSM.o FrameworkHeaders/SystemSM.c   -relaxed-math -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
-	
 ${OBJECTDIR}/FrameworkHeaders/Fingerprint.o: FrameworkHeaders/Fingerprint.c  .generated_files/flags/default/f1862ff857dfc7586e9a8428f8f686e2fde0c14c .generated_files/flags/default/25cf332145e109ecc94cb8c88ed46e464b66686
 	@${MKDIR} "${OBJECTDIR}/FrameworkHeaders" 
 	@${RM} ${OBJECTDIR}/FrameworkHeaders/Fingerprint.o.d 
@@ -347,6 +341,12 @@ ${OBJECTDIR}/FrameworkHeaders/WireCutTaskSM.o: FrameworkHeaders/WireCutTaskSM.c 
 	@${RM} ${OBJECTDIR}/FrameworkHeaders/WireCutTaskSM.o.d 
 	@${RM} ${OBJECTDIR}/FrameworkHeaders/WireCutTaskSM.o 
 	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"FrameworkHeaders" -I"ProjectHeaders" -fno-common -MP -MMD -MF "${OBJECTDIR}/FrameworkHeaders/WireCutTaskSM.o.d" -o ${OBJECTDIR}/FrameworkHeaders/WireCutTaskSM.o FrameworkHeaders/WireCutTaskSM.c   -relaxed-math -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
+	
+${OBJECTDIR}/FrameworkHeaders/PrimarySystemSM.o: FrameworkHeaders/PrimarySystemSM.c  .generated_files/flags/default/a75dbc47b4e8c30d39455e5c18c8e75ed5a50400 .generated_files/flags/default/25cf332145e109ecc94cb8c88ed46e464b66686
+	@${MKDIR} "${OBJECTDIR}/FrameworkHeaders" 
+	@${RM} ${OBJECTDIR}/FrameworkHeaders/PrimarySystemSM.o.d 
+	@${RM} ${OBJECTDIR}/FrameworkHeaders/PrimarySystemSM.o 
+	${MP_CC}  $(MP_EXTRA_CC_PRE)  -g -x c -c -mprocessor=$(MP_PROCESSOR_OPTION) -I"FrameworkHeaders" -I"ProjectHeaders" -fno-common -MP -MMD -MF "${OBJECTDIR}/FrameworkHeaders/PrimarySystemSM.o.d" -o ${OBJECTDIR}/FrameworkHeaders/PrimarySystemSM.o FrameworkHeaders/PrimarySystemSM.c   -relaxed-math -DXPRJ_default=$(CND_CONF)  -legacy-libc  $(COMPARISON_BUILD)  -mdfp="${DFP_DIR}"  
 	
 endif
 
