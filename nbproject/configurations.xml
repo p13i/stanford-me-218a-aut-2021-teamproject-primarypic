@@ -52,6 +52,7 @@
       <itemPath>FrameworkHeaders/RadioCodeTaskSM.h</itemPath>
       <itemPath>FrameworkHeaders/WireCutTaskSM.h</itemPath>
       <itemPath>FrameworkHeaders/PrimarySystemSM.h</itemPath>
+      <itemPath>ProjectHeaders/PIC32_SPI_HAL.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -70,6 +71,7 @@
       <itemPath>FrameworkHeaders/RadioCodeTaskSM.c</itemPath>
       <itemPath>FrameworkHeaders/WireCutTaskSM.c</itemPath>
       <itemPath>FrameworkHeaders/PrimarySystemSM.c</itemPath>
+      <itemPath>ProjectSource/PIC32_SPI_HAL.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
